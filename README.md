@@ -27,7 +27,7 @@ ChrootDirectory "C:\SFTP"
 - There are 6 functions provided for:
 -- FTPDirectoryCreate
 -- FTPDirectoryDelete
--- FTPDownload
+-- FTPDownload (Quick note: For the local download path, make sure to close with a \. Example: C:\temp\
 -- FTPFileDelete
 -- FTPList
 -- FTPUpload
