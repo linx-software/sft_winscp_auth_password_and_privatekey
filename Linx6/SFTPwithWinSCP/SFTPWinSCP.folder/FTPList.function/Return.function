@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:t4r8",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "FTPResponse",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:t4r8"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

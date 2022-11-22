@@ -1,0 +1,16 @@
+{
+  "Id": "t4r8",
+  "Name": "FTPResponse",
+  "Properties": [
+    {
+      "Id": "WRrS",
+      "Name": "Files",
+      "Type": "List:Custom:aVx7"
+    },
+    {
+      "Id": "WdGS",
+      "Name": "NumberOfFiles",
+      "Type": "Compiled:Int64"
+    }
+  ]
+}

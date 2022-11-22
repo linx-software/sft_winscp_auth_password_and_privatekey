@@ -1,0 +1,36 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:aVx7",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "FTPResponse.Files",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:aVx7"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:aVx7",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"Name\":{\"LinxExpression\":\"[PARSED]\"}, \"IsDirectory\":true, \"IsFile\":false, \"IsLink\":false}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Name"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.filename.value",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ]
+}

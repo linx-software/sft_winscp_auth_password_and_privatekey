@@ -1,0 +1,8 @@
+[
+  {
+    "Id": "IQwz",
+    "Name": "WinSCPLocation",
+    "Type": "Compiled:String",
+    "Value": "\"C:\\Program Files (x86)\\WinSCP\\WinSCP.com\""
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "bmTH",
+      "Properties": [
+        {
+          "Id": "session",
+          "Name": "session",
+          "Type": "Generated:A7iN",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "A7iN",
+      "Properties": [
+        {
+          "Id": "ls",
+          "Name": "ls",
+          "Type": "Generated:Xq0k",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "start",
+          "Name": "start",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Xq0k",
+      "Properties": [
+        {
+          "Id": "destination",
+          "Name": "destination",
+          "Type": "Generated:Cg6u",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "files",
+          "Name": "files",
+          "Type": "Generated:aiPx",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "result",
+          "Name": "result",
+          "Type": "Generated:ZNOj",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Cg6u",
+      "Properties": [
+        {
+          "Id": "value",
+          "Name": "value",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "aiPx",
+      "Properties": [
+        {
+          "Id": "file",
+          "Name": "file",
+          "Type": "List:Generated:NqcJ",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "NqcJ",
+      "Properties": [
+        {
+          "Id": "filename",
+          "Name": "filename",
+          "Type": "Generated:JcX3",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "type",
+          "Name": "type",
+          "Type": "Generated:xnqu",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "size",
+          "Name": "size",
+          "Type": "Generated:Tc5a",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "modification",
+          "Name": "modification",
+          "Type": "Generated:Hia2",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "permissions",
+          "Name": "permissions",
+          "Type": "Generated:0o9u",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "owner",
+          "Name": "owner",
+          "Type": "Generated:DgmX",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "group",
+          "Name": "group",
+          "Type": "Generated:QPnp",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "JcX3",
+      "Properties": [
+        {
+          "Id": "value",
+          "Name": "value",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "xnqu",
+      "Properties": [
+        {
+          "Id": "value",
+          "Name": "value",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Tc5a",
+      "Properties": [
+        {
+          "Id": "value",
+          "Name": "value",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Hia2",
+      "Properties": [
+        {
+          "Id": "value",
+          "Name": "value",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "0o9u",
+      "Properties": [
+        {
+          "Id": "value",
+          "Name": "value",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "DgmX",
+      "Properties": [
+        {
+          "Id": "value",
+          "Name": "value",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "QPnp",
+      "Properties": [
+        {
+          "Id": "value",
+          "Name": "value",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ZNOj",
+      "Properties": [
+        {
+          "Id": "success",
+          "Name": "success",
+          "Type": "Compiled:Boolean",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

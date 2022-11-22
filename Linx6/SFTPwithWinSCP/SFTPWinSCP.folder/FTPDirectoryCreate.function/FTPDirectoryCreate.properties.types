@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "mzWn",
+      "Properties": [
+        {
+          "Id": "YnQd",
+          "Name": "ConnectionString",
+          "Type": "Custom:2FT1",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "uOjf",
+          "Name": "NewDirectoryName",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "WGHA",
+          "Name": "RemotePath",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

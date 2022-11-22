@@ -1,0 +1,16 @@
+{
+  "Id": "GCGV",
+  "Name": "SFTPConnectionString_PrivateKeys",
+  "Properties": [
+    {
+      "Id": "CJ6f",
+      "Name": "Passphrase",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "izbk",
+      "Name": "Data",
+      "Type": "Compiled:String"
+    }
+  ]
+}

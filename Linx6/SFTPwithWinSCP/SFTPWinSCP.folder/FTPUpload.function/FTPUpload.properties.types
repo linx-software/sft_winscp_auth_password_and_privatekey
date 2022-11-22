@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "s1dK",
+      "Properties": [
+        {
+          "Id": "YnQd",
+          "Name": "ConnectionString",
+          "Type": "Custom:2FT1",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "WGHA",
+          "Name": "RemotePath",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "eZWR",
+          "Name": "SourceFileLocalPath",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

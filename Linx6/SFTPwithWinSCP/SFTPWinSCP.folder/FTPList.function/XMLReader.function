@@ -1,0 +1,52 @@
+{
+  "Properties": [
+    {
+      "Id": "Element name lookup",
+      "Type": "Compiled:System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {}
+    },
+    {
+      "Id": "Property map",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": ""
+    },
+    {
+      "Id": "Property map error message",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": null
+    },
+    {
+      "Id": "Property map valid",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Schema",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "<?xml version=\"1.0\"?>\r\n<xs:schema attributeFormDefault=\"unqualified\" elementFormDefault=\"qualified\" targetNamespace=\"http://winscp.net/schema/session/1.0\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\r\n  <xs:element name=\"session\">\r\n    <xs:complexType>\r\n      <xs:sequence>\r\n        <xs:element name=\"ls\">\r\n          <xs:complexType>\r\n            <xs:sequence>\r\n              <xs:element name=\"destination\">\r\n                <xs:complexType>\r\n                  <xs:attribute name=\"value\" type=\"xs:string\" />\r\n                </xs:complexType>\r\n              </xs:element>\r\n              <xs:element name=\"files\">\r\n                <xs:complexType>\r\n                  <xs:sequence>\r\n                    <xs:element maxOccurs=\"unbounded\" name=\"file\">\r\n                      <xs:complexType>\r\n                        <xs:sequence>\r\n                          <xs:element name=\"filename\">\r\n                            <xs:complexType>\r\n                              <xs:attribute name=\"value\" type=\"xs:string\" />\r\n                            </xs:complexType>\r\n                          </xs:element>\r\n                          <xs:element name=\"type\">\r\n                            <xs:complexType>\r\n                              <xs:attribute name=\"value\" type=\"xs:string\" />\r\n                            </xs:complexType>\r\n                          </xs:element>\r\n                          <xs:element minOccurs=\"0\" name=\"size\">\r\n                            <xs:complexType>\r\n                              <xs:attribute name=\"value\" type=\"xs:unsignedInt\" />\r\n                            </xs:complexType>\r\n                          </xs:element>\r\n                          <xs:element minOccurs=\"0\" name=\"modification\">\r\n                            <xs:complexType>\r\n                              <xs:attribute name=\"value\" type=\"xs:dateTime\" />\r\n                            </xs:complexType>\r\n                          </xs:element>\r\n                          <xs:element minOccurs=\"0\" name=\"permissions\">\r\n                            <xs:complexType>\r\n                              <xs:attribute name=\"value\" type=\"xs:string\" />\r\n                            </xs:complexType>\r\n                          </xs:element>\r\n                          <xs:element minOccurs=\"0\" name=\"owner\">\r\n                            <xs:complexType>\r\n                              <xs:attribute name=\"value\" type=\"xs:string\" />\r\n                            </xs:complexType>\r\n                          </xs:element>\r\n                          <xs:element minOccurs=\"0\" name=\"group\">\r\n                            <xs:complexType>\r\n                              <xs:attribute name=\"value\" type=\"xs:string\" />\r\n                            </xs:complexType>\r\n                          </xs:element>\r\n                        </xs:sequence>\r\n                      </xs:complexType>\r\n                    </xs:element>\r\n                  </xs:sequence>\r\n                </xs:complexType>\r\n              </xs:element>\r\n              <xs:element name=\"result\">\r\n                <xs:complexType>\r\n                  <xs:attribute name=\"success\" type=\"xs:boolean\" />\r\n                </xs:complexType>\r\n              </xs:element>\r\n            </xs:sequence>\r\n          </xs:complexType>\r\n        </xs:element>\r\n      </xs:sequence>\r\n      <xs:attribute name=\"name\" type=\"xs:string\" />\r\n      <xs:attribute name=\"start\" type=\"xs:dateTime\" />\r\n    </xs:complexType>\r\n  </xs:element>\r\n</xs:schema>"
+    },
+    {
+      "Id": "XML source",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Xml.Common.XmlInterpreter.XmlSource, Twenty57.Linx.Plugins.Xml, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "String"
+    },
+    {
+      "Id": "XML string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "ReadXMLLog",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Generated:bmTH"
+}

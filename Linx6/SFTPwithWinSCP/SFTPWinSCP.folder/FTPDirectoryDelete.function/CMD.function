@@ -1,0 +1,16 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.WinSCPLocation+\"/xmllog=\\\"\"+TempXMLLog+\"\\\" /command \\\"open \"+Server+\" -privatekey=\\\"\"+TemporaryKeyFile+\"\\\"\\\" \\\"rmdir \\\"\"+$.Parameters.RemotePathToDelete+\"\\\"\\\" \\\"exit\\\"\" ",
+        "CompiledExpression": "={4}+\"/xmllog=\\\"\"+{3}+\"\\\" /command \\\"open \"+{2}+\" -privatekey=\\\"\"+{1}+\"\\\"\\\" \\\"rmdir \\\"\"+{0}+\"\\\"\\\" \\\"exit\\\"\"",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Compiled:String"
+}

@@ -1,0 +1,56 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:aVx7",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "FTPResponse.Files",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:aVx7"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:aVx7",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"Name\":{\"LinxExpression\":\"[PARSED]\"}, \"IsDirectory\":false, \"IsFile\":true, \"IsLink\":false, \"FileSize\":{\"LinxExpression\":\"[PARSED]\"}, \"LastModifiedDate\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Name"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.filename.value",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "FileSize"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.size.value",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "LastModifiedDate"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.modification.value",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:DateTime"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ]
+}

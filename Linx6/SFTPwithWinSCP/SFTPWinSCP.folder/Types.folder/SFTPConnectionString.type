@@ -1,0 +1,46 @@
+{
+  "Id": "2FT1",
+  "Name": "SFTPConnectionString",
+  "Properties": [
+    {
+      "Id": "HTyo",
+      "Name": "Type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "xLRS",
+      "Name": "Host",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "EZn0",
+      "Name": "Port",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "6rMp",
+      "Name": "Timeout",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Klou",
+      "Name": "Authentication",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "USmG",
+      "Name": "Username",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Oql3",
+      "Name": "Password",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "936b",
+      "Name": "PrivateKeys",
+      "Type": "List:Custom:GCGV"
+    }
+  ]
+}

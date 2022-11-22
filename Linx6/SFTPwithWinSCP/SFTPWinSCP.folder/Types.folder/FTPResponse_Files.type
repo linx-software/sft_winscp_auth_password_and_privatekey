@@ -1,0 +1,36 @@
+{
+  "Id": "aVx7",
+  "Name": "FTPResponse_Files",
+  "Properties": [
+    {
+      "Id": "Ukf3",
+      "Name": "Name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "YsgP",
+      "Name": "IsDirectory",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "5rjj",
+      "Name": "IsFile",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "Qss7",
+      "Name": "IsLink",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "oUJZ",
+      "Name": "FileSize",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "vQFN",
+      "Name": "LastModifiedDate",
+      "Type": "Compiled:DateTime"
+    }
+  ]
+}

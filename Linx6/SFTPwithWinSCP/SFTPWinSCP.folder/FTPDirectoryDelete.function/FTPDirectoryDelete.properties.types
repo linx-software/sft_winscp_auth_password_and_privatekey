@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "S0SW",
+      "Properties": [
+        {
+          "Id": "YnQd",
+          "Name": "ConnectionString",
+          "Type": "Custom:2FT1",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "WGHA",
+          "Name": "RemotePathToDelete",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

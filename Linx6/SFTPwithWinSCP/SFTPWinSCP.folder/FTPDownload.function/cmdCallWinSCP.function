@@ -1,0 +1,58 @@
+{
+  "Properties": [
+    {
+      "Id": "Command",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CMD",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Kill on timeout",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Output encoding",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Utilities.CommandLine.Encoding, Twenty57.Linx.Plugins.Utilities, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "Default"
+    },
+    {
+      "Id": "Password",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": null
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60000
+    },
+    {
+      "Id": "User name",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": null
+    },
+    {
+      "Id": "Wait for return",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Working directory",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": null
+    }
+  ],
+  "Result": "Generated:ioyL"
+}

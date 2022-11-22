@@ -9,6 +9,8 @@ This solution should give you a good base to build your project if you need to c
 ## Installation
 
 - Both a Linx 5 and Linx 6 solution is added to this Repo. You can download the Free Linx 6 Designer from https://linx.software to try this solution out.
+- Linx 5 solution built using Linx Designer 5.22
+- Line 6 solution built using Linx Designer 6.4.3
 - There's a Setting for the location of your WinSCP.COM file. You'll have to install WinSCP first though. You can download it here: https://winscp.net/eng/download.php
 - If you want to set up your own SFTP server, you can Google "OpenSSH Install". Below. however is a couple of config lines you can work with in your sshd_config file, simply comment out what you don't need:
 

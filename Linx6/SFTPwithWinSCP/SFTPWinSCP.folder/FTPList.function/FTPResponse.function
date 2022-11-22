@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:t4r8",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:t4r8",
+      "ValueUsage": "RuntimeRead",
+      "Value": "{}",
+      "ValueType": "String"
+    }
+  ],
+  "Result": "Custom:t4r8"
+}

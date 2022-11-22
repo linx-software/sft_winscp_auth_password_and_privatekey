@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ioyL",
+      "Properties": [
+        {
+          "Id": "Output",
+          "Name": "Output",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ExitCode",
+          "Name": "ExitCode",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "HasTimedOut",
+          "Name": "HasTimedOut",
+          "Type": "Compiled:Boolean",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

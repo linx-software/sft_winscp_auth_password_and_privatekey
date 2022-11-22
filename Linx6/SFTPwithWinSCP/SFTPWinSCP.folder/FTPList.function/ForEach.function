@@ -1,0 +1,25 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Generated:NqcJ",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "XMLReader.session.ls.files.file",
+        "CompiledExpression": "={0}",
+        "Type": "List:Generated:NqcJ"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Generated:NqcJ",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore",
+      "ConstitutesControlFlow": true
+    }
+  ]
+}
