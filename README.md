@@ -24,13 +24,13 @@ ChrootDirectory "C:\SFTP"
 
 ## Usage
 
-- There are 6 functions provided for:
--- FTPDirectoryCreate
--- FTPDirectoryDelete
--- FTPDownload (Quick note: For the local download path, make sure to close with a \. Example: C:\temp\
--- FTPFileDelete
--- FTPList
--- FTPUpload
+There are 6 functions provided for:
+- FTPDirectoryCreate
+- FTPDirectoryDelete
+- FTPDownload (Quick note: For the local download path, make sure to close with a \. Example: C:\temp\
+- FTPFileDelete
+- FTPList
+- FTPUpload
 
 Here is a typical ConnectionString you can amend for your own server. The private key data should be read from the file as a string and placed as a whole into the ConnectionString. This JSON is just an example, but you can use Linx Designer to create your connection string using the Field Editor:
 
