@@ -34,6 +34,7 @@ Here is a typical ConnectionString you can amend for your own server. The privat
 
 {"Type":"SFTP", "Host":"ServerName", "Port":"22", "Timeout":"60", "Authentication":"Basic", "Username":"sftpuser", "Password":"abc123", "PrivateKeys":[{"Data":"PuTTY-User-Key-File-3: ssh-ed25519\nEncryption: none\nComment: sftpuser@ServerName\nPublic-Lines: 2\nABCDC3NzaC1lZDI1NTE6AAAAIH9mtuvKJ/xoUG6YUEeuLADZskOg1ssb4Fj1nOah\nfadn\nPrivate-Lines: 1\nCCCCIEgAFIYtGgfDdCc+VK03oZw+ocIFB3CFiYd3wkWZpWXh\nPrivate-MAC: dfc1277fb3b6de2d3923f5d1414f6f853c2b8474626432d01b769f5f18d31e9e\n"}]}
 
+To learn more commands to use with WinSCP: https://winscp.net/eng/docs/scripting#commands
 
 ## Contributing
 
